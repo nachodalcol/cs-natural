@@ -1,0 +1,454 @@
+/* General para todo el site*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* General para todos los headers*/
+header{
+    background-color: #95c632;
+}
+header nav ul li{
+    display: inline;
+    margin: 30px;
+    padding: 30px;
+}
+header nav ul {
+    width: fit-content;
+    margin: 0 auto;
+}
+.imgHeader{
+    height: 100px;
+}
+
+/* General para todos los footers*/
+footer{
+    background-color: #95c632;
+    width: 100%;
+}
+
+footer ul li{
+    width: fit-content;
+    margin: 100px;
+    display: inline;
+}
+
+footer ul li a img{
+    height: 20px;
+}
+
+footer ul li img{
+    height: 20px;
+}
+
+/* General para todos los navegadores*/
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+main{
+    background-color: #d2ed9f;
+}
+
+/* Ajuste imagen banner Index*/
+.bannerPrincipal{
+    width: 100%;
+}
+
+/* Botones Productos*/
+.botonComprar{
+    background-color: gray;
+    width:fit-content;
+    border: solid 2px black;
+    border-radius: 6px;
+    padding: 1px 3px;
+    margin: 10px;
+}
+
+.botonComprar a{
+    text-decoration: none;
+    color: white;
+    font-weight: 1000;
+}
+
+/*Botones Contacto*/
+.dejanosMensaje{
+    height: 150px;
+    overflow: scroll;
+}
+
+/*Texto+Img Index*/
+.parrafoFotoHome{
+    height: 550px;
+    position: relative;
+}
+.parrafoHome{
+    width: 50%;
+    height: 150px;
+    padding-top: 10px;
+}
+.fotoHome{
+    width: 50%;
+    height: 100%;
+    margin-left: 650px;
+    top: 10px;
+    position: absolute;
+    object-fit: contain;
+}
+
+/*Value Prop Home*/
+.valueProp{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    background-color: #aed365;
+    justify-content: center;
+}
+.itemVP{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fotoVP{
+    width: 75%;
+    height: 200px;
+    object-fit: contain;
+}
+.textoVP{
+    width: 50%;
+}
+
+/*Formulario Home*/
+.newsletter{
+    /*position: relative;*/
+    display: grid;
+    grid-template-columns: repeat(5, 1fr)
+}
+.textoNS{
+    font-size: 50px;
+    align-content: center;
+    grid-column: 1/3;
+}
+.form{
+    /*width: 50%;
+    height: 100%;
+    margin-left: 630px;
+    top: 10px;
+    position: absolute;*/
+    grid-column: 4/5;
+    align-items: center;
+}
+
+/*Seccion Sobre Nosotros*/
+.imagenNosotros{
+    height: 225px;
+    margin: 10px;
+}
+
+section ul li{
+    display: inline;
+}
+.fotoEquipo{
+    margin: 10px;
+    width: 1200px;
+}
+
+/*Seccion Certificaciones*/
+.grilla{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 30px 10px;
+}
+.itemCertificaciones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+.imgCertificaciones{
+    object-fit: contain;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+.item1{
+    grid-column: 2/4;
+}
+.item2{
+    grid-column: 2/4;
+}
+.item3{
+    grid-column: 2/4;
+}
+.item4{
+    grid-column: 2/4;
+}
+.item5{
+    grid-column: 2/4;
+}
+/*Seccion Productos*/
+.fotoProducto{
+    height: 300px;
+    width: 400px;
+    margin: 10px;
+}
+.mainProductos{
+    height: 1200px;
+}
+/*Seccion Contacto*/
+.mensaje{
+    height: 300px;
+    position: relative;
+}
+.tituloMensaje{
+    font-size: 50px;
+    align-content: center;
+}
+.datos{
+    width: 50%;
+    height: 100%;
+    margin-left: 630px;
+    top: 10px;
+    position: absolute;
+}
+
+
+@media screen and (max-width: 1441px) {
+    .parrafoFotoHome{
+        height: 500px;
+        position: relative;
+    }
+    .parrafoHome{
+        width: 50%;
+        height: 150px;
+        padding-top: 10px;
+    }
+    .fotoHome{
+        width: 50%;
+        height: 75%;
+        margin-left: 700px;
+        top: 40px;
+        position: absolute;
+        object-fit: contain;
+    }
+}
+@media screen and (max-width: 1300px) {
+    .parrafoFotoHome{
+        height: 500px;
+        position: relative;
+    }
+    .parrafoHome{
+        width: 50%;
+        height: 150px;
+        padding-top: 10px;
+    }
+    .fotoHome{
+        width: 50%;
+        height: 75%;
+        margin-left: 620px;
+        top: 40px;
+        position: absolute;
+        object-fit: contain;
+    }
+}
+@media screen and (max-width: 1025px) {
+    .parrafoFotoHome{
+        height: 650px;
+        position: relative;
+    }
+    .parrafoHome{
+        width: 50%;
+        height: 150px;
+        padding-top: 10px;
+    }
+    .fotoHome{
+        width: 50%;
+        height: 75%;
+        margin-left: 510px;
+        top: 40px;
+        position: absolute;
+        object-fit: contain;
+    }
+    header nav ul li{
+        display: inline;
+        margin: 20px;
+        padding: 20px;
+    }
+    header nav ul {
+        width: fit-content;
+        margin: 0 auto;
+    }
+
+    footer ul li{
+        width: auto;
+        margin: 80px;
+        display: inline;
+    }
+    
+    footer ul li a img{
+        height: 20px;
+    }
+    
+    footer ul li img{
+        height: 20px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .parrafoFotoHome{
+        height: 100%;
+    }
+    .parrafoHome{
+        padding-top: 10px;
+        width: 100%;
+        height: 100%;
+        font-size: small;
+    }
+    .fotoHome{
+        display: none;
+    }
+    footer{
+    background-color: #95c632;
+    width: 100%;
+    }
+    footer ul li{
+    width: fit-content;
+    margin: 100px;
+    display: inline;
+    }
+    footer ul li a img{
+    height: 20px;
+    }
+    footer ul li img{
+        height: 20px;
+    }
+}
+@media screen and (max-width: 769px) {
+    .parrafoFotoHome{
+        height: 100%;
+    }
+    .parrafoHome{
+        padding-top: 10px;
+        width: 100%;
+        height: 100%;
+        font-size: small;
+    }
+    .fotoHome{
+        display: none;
+    }
+    footer{
+    background-color: #95c632;
+    width: 100%;
+    }
+    footer ul li{
+    width: fit-content;
+    margin: 50px;
+    display: inline;
+    }
+    footer ul li a img{
+    height: 20px;
+    }
+    footer ul li img{
+        height: 20px;
+    }
+    header nav ul li{
+        display: inline;
+        margin: 10px;
+        padding: 10px;
+    }
+    header nav ul {
+        width: fit-content;
+        margin: 0 auto;
+    }
+}
+/* Mobile*/
+@media screen and (max-width: 426px) {
+    header nav ul li{
+        display:block;
+        margin: 0;
+        padding: 0;
+    }
+    header nav ul {
+        width:auto;
+        margin: 0 auto;
+    }
+    .parrafoFotoHome{
+        height: 100%;
+    }
+    .parrafoHome{
+        padding-top: 10px;
+        width: 100%;
+        height: 100%;
+        font-size: small;
+    }
+    .fotoHome{
+        display: none;
+    }
+    footer ul li{
+        display:inline;
+        margin: 0;
+        padding: 0;
+    }
+    footer ul li a img{
+        height: 20px;
+        margin: 20px;
+    }
+    
+    footer ul li img{
+        height: 20px;
+    }
+    .newsletter{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr)
+    }
+    .textoNS{
+        font-size: 30px;
+        align-content: center;
+        grid-column: 1/3;
+    }
+    .form{
+        grid-column: 4/5;
+        align-items: center;
+    }    
+    .valueProp{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 50px;
+        background-color: #aed365;
+        justify-content: center;
+    }
+    .itemVP{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .fotoVP{
+        width: 150px;
+        height: 100px;
+        object-fit: contain;
+    }
+    .textoVP{
+        align-items: center;
+        font-size: small;
+    }
+}
+    @media screen and (max-width: 376px) {
+        .newsletter{
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+        }
+        .textoNS{
+            font-size: 25px;
+            align-content: center;
+            grid-column: 1/5;
+        }
+        .form{
+            grid-column: 1/5;
+            align-items: center;
+        }    
+    }
