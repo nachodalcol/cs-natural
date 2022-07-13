@@ -7,49 +7,64 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 	<link rel="stylesheet" href="./style.css">
     <title>CS-Natural</title>
 </head>
 
 <body>
-    <header class="header">
-		<a href="#"><img src="./imagenes/logo.JPG" alt="Logo CS Natural" class="imgHeader"></a>
-		<h1>CS Natural</h1>
-		<h2>productos naturales</h2>
-		<nav class="navegador">
-			<ul>
-				<li > <a href="#">Home</a></li>
-				<li> <a href="./paginas/productos.html">Productos</a></li>
-				<li> <a href="./paginas/sobre-nosotros.html">Sobre Nosotros</a></li>
-				<li><a href="./paginas/contacto.html">Contacto</a></li>
-				<li><a href="./paginas/certificaciones.html">Certificaciones</a></li>
-			</ul>
-		</nav>
+	<header>
+		<nav class="navbar navbar-expand-lg">
+			<div class="container-fluid">
+				<a href="#"><img src="./imagenes/logo.JPG" alt="Logo CS Natural" class="imgHeader"></a>
+			  <a class="navbar-brand" href="#">CS Natural</a>
+			  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+				<div class="navbar-nav">
+				  <a class="nav-link active" aria-current="page" href="#">Home</a>
+				  <a class="nav-link" href="./paginas/productos.html">Productos</a>
+				  <a class="nav-link" href="./paginas/sobre-nosotros.html">Sobre Nosotros</a>
+				  <a class="nav-link" href="./paginas/contacto.html">Contacto</a>
+				  <a class="nav-link" href="./paginas/certificaciones.html">Certificaciones</a>
+				</div>
+			  </div>
+			</div>
+		  </nav>
 	</header>
 	<main>
 		<img src="./imagenes/bannerhome.JPG" alt="Banner principal" class="bannerPrincipal">
-		<section class="parrafoFotoHome">
+		<section class="container-fluid">
 			<h2>CS Natural</h2>
-				<p class="parrafoHome">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia laborum ab amet cupiditate enim dolor quod explicabo velit molestiae quaerat? Natus ad error asperiores aliquid id sunt dolores dolorem cum.
-				Optio, nostrum! Cumque odio illo ut quasi deleniti sequi consequatur nihil eum dolorum provident soluta quibusdam cupiditate non sint accusantium ducimus, ullam consectetur veritatis error omnis suscipit rem dolor! Excepturi.
-				Odio quis perspiciatis, dolores, ad culpa doloribus tempora aspernatur nemo recusandae odit consequatur! Ut, molestias. Vel laudantium tenetur, repellendus iusto aspernatur corporis, obcaecati, placeat eveniet earum quae fugiat impedit reiciendis.
-				Facilis, neque nulla. Esse aliquid earum nam. Aperiam assumenda corporis et, nesciunt voluptatum distinctio. Eos, sapiente animi ipsa dolorum, veritatis, veniam debitis voluptatum ratione vel in quidem quia fuga optio!
-				Quasi rem odit animi voluptates omnis aperiam quo tenetur deleniti autem. Quaerat iure reiciendis qui rem placeat tempore voluptas suscipit alias? Adipisci odio, quidem dicta sequi minima corporis nemo asperiores?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus quaerat magni, vitae explicabo iusto voluptatibus voluptatem corrupti omnis quo maiores modi, possimus vel ad dolores recusandae similique? Itaque, quis porro voluptatibus sequi labore voluptate ex delectus nulla omnis sint obcaecati neque 
-				</p>
-				<div><img src="./imagenes/productoshome.webp" alt="productos que vendemos" class="fotoHome"></div>
+				<div class="row">
+				<div class="col-6">
+					<p class="parrafoHome">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia laborum ab amet cupiditate enim dolor quod explicabo velit molestiae quaerat? Natus ad error asperiores aliquid id sunt dolores dolorem cum.
+					Optio, nostrum! Cumque odio illo ut quasi deleniti sequi consequatur nihil eum dolorum provident soluta quibusdam cupiditate non sint accusantium ducimus, ullam consectetur veritatis error omnis suscipit rem dolor! Excepturi.
+					Odio quis perspiciatis, dolores, ad culpa doloribus tempora aspernatur nemo recusandae odit consequatur! Ut, molestias. Vel laudantium tenetur, repellendus iusto aspernatur corporis, obcaecati, placeat eveniet earum quae fugiat impedit reiciendis.
+					Facilis, neque nulla. Esse aliquid earum nam. Aperiam assumenda corporis et, nesciunt voluptatum distinctio. Eos, sapiente animi ipsa dolorum, veritatis, veniam debitis voluptatum ratione vel in quidem quia fuga optio!
+					Quasi rem odit animi voluptates omnis aperiam quo tenetur deleniti autem. Quaerat iure reiciendis qui rem placeat tempore voluptas suscipit alias? Adipisci odio, quidem dicta sequi minima corporis nemo asperiores?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus quaerat magni, vitae explicabo iusto voluptatibus voluptatem corrupti omnis quo maiores modi, possimus vel ad dolores recusandae similique? Itaque, quis porro voluptatibus sequi labore voluptate ex delectus nulla omnis sint obcaecati neque 
+					</p>
+				</div>
+				<div class="col-6">
+					<img src="./imagenes/productoshome.webp" alt="productos que vendemos" class="fotoHome">
+				</div>
+			</div>
 		</section>
-		<section class="valueProp">
-			<div class="itemVP">
+		<section class="valueProp container-fluid">
+			<div class="row">
+				<div class="itemVP col">
 				<img src="./imagenes/freeshipping.jpg" alt="Envios Gratis" class="fotoVP"><p class="textoVP">Envios Gratis en CABA y GBA</p>
-			</div>
-			<div class="itemVP">
+				</div>
+				<div class="itemVP col">
 				<img src="./imagenes/financing.png" alt="Hasta 6 cuotas sin interes" class="fotoVP"><p class="textoVP">3 Y 6 Cuotas sin interes</p>
-			</div>
-			<div class="itemVP">
+				</div>
+				<div class="itemVP col">
 				<img src="./imagenes/delivery.jpg" alt="Envios a todo el pais" class="fotoVP"> <p class="textoVP" >Envios a todo el pais</p>
-			</div>
-			<div class="itemVP">
+				</div>
+				<div class="itemVP col">
 				<img src="./imagenes/pickup.jpg" alt="Retiro en Tienda" class="fotoVP"><p class="textoVP">Retiro en sucursal</p>
+				</div>
 			</div>
 		</section>
 		<section class="newsletter">
@@ -71,5 +86,7 @@
 			<li><a href="http://www.gmail.com/" target="_blank"><img src="./imagenes/gmaillogo.png" alt="Logo Gmail" class="transicion"></a></li>
         </ul>
 	</footer>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
 </body>
 </html>

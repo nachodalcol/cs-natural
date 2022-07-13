@@ -21,11 +21,15 @@ header nav ul {
 .imgHeader{
     height: 100px;
 }
-
+.navbar-nav{
+    margin: 0 auto;
+    width: fit-content;
+}
 /* General para todos los footers*/
 footer{
     background-color: #95c632;
     width: 100%;
+    height: 40px;
 }
 
 footer ul li{
@@ -78,7 +82,7 @@ main{
     overflow: scroll;
 }
 
-/*Texto+Img Index*/
+/*Texto+Img Index
 .parrafoFotoHome{
     height: 550px;
     position: relative;
@@ -96,6 +100,7 @@ main{
     position: absolute;
     object-fit: contain;
 }
+*/
 
 /*Value Prop Home*/
 .valueProp{
@@ -215,7 +220,7 @@ section ul li{
     position: absolute;
 }
 
-
+/*
 @media screen and (max-width: 1441px) {
     .parrafoFotoHome{
         height: 500px;
@@ -364,7 +369,7 @@ section ul li{
         margin: 0 auto;
     }
 }
-/* Mobile*/
+/* Mobile
 @media screen and (max-width: 426px) {
     header nav ul li{
         display:block;
@@ -452,9 +457,18 @@ section ul li{
             align-items: center;
         }    
     }
+    */
 .transicion:hover{
     transform: scale(2);
 }
 .transicion{
     transition: all 3s;
+}
+.carousel-item{
+    height: 400px;
+    width: 100%;
+}
+.carousel-item img{
+    height: 400px;
+    object-fit: contain;
 }

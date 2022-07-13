@@ -7,31 +7,61 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="../style.css">
     <title>Sobre Nosotros</title>
 </head>
 <body>
     <header>
-        <a href="../index.html"><img src="../imagenes/logo.JPG" alt="Logo CS Natural" class="imgHeader"></a>
-        <h1>CS Natural</h1>
-        <nav>
-            <ul>
-                <li> <a href="../index.html">Home</a></li>
-				<li> <a href="./productos.html">Productos</a></li>
-				<li> <a href="#">Sobre Nosotros</a></li>
-				<li><a href="./contacto.html">Contacto</a></li>
-				<li><a href="./certificaciones.html">Certificaciones</a></li>
-            </ul>
-        </nav>
-    </header>
+		<nav class="navbar navbar-expand-lg">
+			<div class="container-fluid">
+				<a href="../index.html"><img src="../imagenes/logo.JPG" alt="Logo CS Natural" class="imgHeader"></a>
+			  <a class="navbar-brand" href="#">CS Natural</a>
+			  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+				<div class="navbar-nav">
+				  <a class="nav-link" href="../index.html">Home</a>
+				  <a class="nav-link" href="./productos.html">Productos</a>
+				  <a class="nav-link active" aria-current="page" href="#">Sobre Nosotros</a>
+				  <a class="nav-link" href="./contacto.html">Contacto</a>
+				  <a class="nav-link" href="./certificaciones.html">Certificaciones</a>
+				</div>
+			  </div>
+			</div>
+		  </nav>
+	</header>
     <main>
-        <section class="nosotros">
-            <ul class="listadoNosotros">
-            <li class="itemNosotros"><img src="../imagenes/sobre-nosotros/apicultura.jpg" alt="Apicultura" class="imagenNosotros"></li>
-            <li class="itemNosotros"><img src="../imagenes/sobre-nosotros/olivar.jpeg" alt="Olivar" class="imagenNosotros"></li>
-            <li class="itemNosotros"><img src="../imagenes/sobre-nosotros/frutos-secos.jpg" alt="Frutos secos" class="imagenNosotros"></li>
-            </ul>
-           <div>
+        <section class="container">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../imagenes/sobre-nosotros/apicultura.jpg" class="d-block w-100" alt="Apicultura">
+              </div>
+              <div class="carousel-item">
+                <img src="../imagenes/sobre-nosotros/olivar.jpeg" class="d-block w-100" alt="Olivar">
+              </div>
+              <div class="carousel-item">
+                <img src="../imagenes/sobre-nosotros/frutos-secos.jpg" class="d-block w-100" alt="Frutos Secos">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </section>
+        <section class="nosotros container-fluid">
             <h2>Quienes somos</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut magnam repudiandae ab. A, vitae laudantium labore sit aliquam qui explicabo animi ea perspiciatis? Accusamus corporis perspiciatis sunt, velit facere aliquid iusto quam dolorem! Dolorum accusantium voluptatem porro. Totam saepe facilis adipisci dolorem? Corrupti repudiandae omnis consectetur tempora, quam laboriosam, voluptatem quod iste eaque impedit, dolor aliquam ex tenetur perspiciatis consequatur reiciendis aliquid aut. Doloremque nihil quibusdam sunt ad aliquid nostrum sequi expedita doloribus tenetur debitis iure id omnis, voluptas nisi tempora laboriosam fuga magnam corrupti possimus quae autem, dignissimos culpa eius. Amet nihil rerum quibusdam delectus obcaecati reiciendis unde eos.</p>
            </div>
@@ -39,10 +69,13 @@
         <section>
             <h3>Historia</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate saepe corporis, voluptatum ipsam perspiciatis, sapiente officiis quas provident suscipit tempore esse sit laborum minus nulla ratione non. Molestiae delectus itaque tenetur tempora eius optio, quibusdam eaque pariatur ab, officiis consequatur earum libero cupiditate totam exercitationem quia nostrum soluta! Eligendi, quos?</p>
-            <h4>Mision, vision y valores</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aspernatur cupiditate, recusandae beatae tempora veniam. Molestiae a et numquam velit?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aspernatur cupiditate, recusandae beatae tempora veniam. Molestiae a et numquam velit?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aspernatur cupiditate, recusandae beatae tempora veniam. Molestiae a et numquam velit?</p>
+        </section>
+        <section class="container-fluid">
+            <div class="row">
+            <div class="col"> <h4>Mision</h4> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aspernatur cupiditate, recusandae beatae tempora veniam. Molestiae a et numquam velit?</p></div>
+            <div class="col"> <h4>Vision</h4> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aspernatur cupiditate, recusandae beatae tempora veniam. Molestiae a et numquam velit?</p></div>
+            <div class="col"> <h4>Valores</h4> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aspernatur cupiditate, recusandae beatae tempora veniam. Molestiae a et numquam velit?</p></div>
+            </div>
         </section>
         <section>
             <h4>Nuestro equipo</h4>
@@ -58,5 +91,7 @@
             <li><a href="http://www.gmail.com/" target="_blank"><img src="../imagenes/gmaillogo.png" alt="Logo Gmail"></a></li>
         </ul>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
 </body>
 </html>
