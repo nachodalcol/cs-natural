@@ -6,24 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../style.css">
     <title>Certificaciones</title>
 </head>
 <body>
     <header>
-        <a href="../index.html"><img src="../imagenes/logo.JPG" alt="Logo CS Natural" class="imgHeader"></a>
-        <h1>CS Natural</h1>
-        <nav>
-            <ul>
-                <li> <a href="../index.html">Home</a></li>
-				<li> <a href="./productos.html">Productos</a></li>
-				<li> <a href="./sobre-nosotros.html">Sobre Nosotros</a></li>
-				<li><a href="./contacto.html">Contacto</a></li>
-				<li><a href="#">Certificaciones</a></li>
-            </ul>
-        </nav>
-    </header>
+		<nav class="navbar navbar-expand-lg">
+			<div class="container-fluid">
+				<a href="../index.html"><img src="../imagenes/logo.JPG" alt="Logo CS Natural" class="imgHeader"></a>
+			  <a class="navbar-brand" href="../index.html">CS Natural</a>
+			  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+				<div class="navbar-nav">
+				  <a class="nav-link" href="../index.html">Home</a>
+				  <a class="nav-link" href="../paginas/productos.html">Productos</a>
+				  <a class="nav-link" href="../paginas/sobre-nosotros.html">Sobre Nosotros</a>
+				  <a class="nav-link" href="./contacto.html">Contacto</a>
+				  <a class="nav-link active" aria-current="page" href="#">Certificaciones</a>
+				</div>
+			  </div>
+			</div>
+		  </nav>
+	</header>
     <main class="mainCertificaciones">
         <h2>Nuestras certificaciones</h2>
         <section class="grilla">
@@ -39,14 +47,16 @@
             <p class="itemCertificaciones item5"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quaerat nam doloremque, alias quidem, voluptatibus voluptate distinctio ex illum corporis qui repellendus. Repudiandae nihil perferendis reiciendis vitae aperiam qui porro!</p>
         </section>
     </main>
-    <footer>
+    <footer class="footer">
         <ul>
-            <li><a href="http://www.facebook.com/mipagina" target="_blank"><img src="../imagenes/fblogo.webp" alt="Logo Facebook"></a></li>
-            <li><a href="http://www.instagram.com/mipagina" target="_blank"><img src="../imagenes/iglogo.webp" alt="Logo Instagram"></a></li>
-            <li><a href="http://www.linkedin.com/mipagina" target="_blank"><img src="../imagenes/linkedinlogo.png" alt="Logo Linkedin"></a></li>
-            <li><a href="http://web.whatsapp.com/" target="_blank"><img src="../imagenes/wpplogo.png" alt="Logo Whatsapp"></a></li>
-            <li><a href="http://www.gmail.com/" target="_blank"><img src="../imagenes/gmaillogo.png" alt="Logo Gmail"></a></li>
+            <li><a href="http://www.facebook.com/mipagina" target="_blank"><img src="../imagenes/fblogo.webp" alt="Logo Facebook" class="transicion"></a></li>
+            <li><a href="http://www.instagram.com/mipagina" target="_blank"><img src="../imagenes/iglogo.webp" alt="Logo Instagram" class="transicion"></a></li>
+            <li><a href="http://www.linkedin.com/mipagina" target="_blank"><img src="../imagenes/linkedinlogo.png" alt="Logo Linkedin" class="transicion"></a></li>
+            <li><a href="http://web.whatsapp.com/" target="_blank"><img src="../imagenes/wpplogo.png" alt="Logo Whatsapp" class="transicion"></a></li>
+            <li><a href="http://www.gmail.com/" target="_blank"><img src="../imagenes/gmaillogo.png" alt="Logo Gmail" class="transicion"></a></li>
         </ul>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
 </body>
 </html>
