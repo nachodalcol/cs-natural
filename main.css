@@ -1,3 +1,18 @@
+.botonMiel, .botonFS, .botonAceite {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  border: solid 2px black;
+  border-radius: 6px;
+  padding: 1px 3px;
+  margin: 10px;
+}
+.botonMiel a, .botonFS a, .botonAceite a {
+  text-decoration: none;
+  color: white;
+  font-weight: 1000;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -6,6 +21,33 @@
 
 main {
   background-color: #d2ed9f;
+}
+
+.botonMiel, .botonFS, .botonAceite {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  border: solid 2px black;
+  border-radius: 6px;
+  padding: 1px 3px;
+  margin: 10px;
+}
+.botonMiel a, .botonFS a, .botonAceite a {
+  text-decoration: none;
+  color: white;
+  font-weight: 1000;
+}
+
+.botonAceite {
+  background-color: rgb(107, 119, 19);
+}
+
+.botonFS {
+  background-color: rgb(95, 95, 69);
+}
+
+.botonMiel {
+  background-color: rgb(176, 176, 61);
 }
 
 .imgHeader {
@@ -52,28 +94,68 @@ footer ul li a img {
   height: 20px;
 }
 
-.fotoProducto {
+.fotoMiel {
   height: 300px;
   width: 400px;
   margin: 10px;
+  border: solid black 2px;
+  border-radius: 1px;
+}
+
+.fotoAceite {
+  height: 300px;
+  width: 400px;
+  margin: 10px;
+  border: solid white 3px;
+  border-radius: 2px;
+}
+
+.fotoFS {
+  height: 300px;
+  width: 400px;
+  margin: 10px;
+  border: solid gray 4px;
+  border-radius: 3px;
 }
 
 .mainProductos {
   height: 1200px;
 }
 
-.botonComprar {
-  background-color: gray;
+footer {
+  background-color: #95c632;
+  width: 100%;
+  height: 40px;
+  padding: 5px;
+}
+
+footer ul li {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  border: solid 2px black;
-  border-radius: 6px;
-  padding: 1px 3px;
-  margin: 10px;
+  margin: 100px;
+  display: inline;
 }
-.botonComprar a {
+
+footer ul li a img {
+  height: 20px;
+}
+
+footer ul li img {
+  height: 20px;
+}
+
+/* General para todos los navegadores*/
+nav ul li a {
   text-decoration: none;
-  color: white;
-  font-weight: 1000;
+  color: black;
+}
+
+main {
+  background-color: #d2ed9f;
+}
+
+/* Ajuste imagen banner Index*/
+.bannerPrincipal {
+  width: 100%;
 }/*# sourceMappingURL=main.css.map */

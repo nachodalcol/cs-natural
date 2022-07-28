@@ -1,0 +1,22 @@
+
+%boton{
+    width:fit-content;
+    border: solid 2px black;
+    border-radius: 6px;
+    padding: 1px 3px;
+    margin: 10px;
+    
+    a{
+        text-decoration: none;
+        color: white;
+        font-weight: 1000;
+    }
+}  
+
+@mixin fotos ($border, $borderRadius){
+    height: 300px;
+    width: 400px;
+    margin: 10px;
+    border: $border;
+    border-radius: $borderRadius;
+}
