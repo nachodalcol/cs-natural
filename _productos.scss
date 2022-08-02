@@ -1,109 +1,25 @@
-@import "./extends";
-
-.botonAceite{
-    @extend %boton;
-    background-color: rgb(107, 119, 19);
-}
-.botonFS{
-    @extend %boton;
-    background-color: rgb(95, 95, 69);
-}
-
-.botonMiel{
-    @extend %boton; 
-    background-color: rgb(176, 176, 61);
-}
-
-.imgHeader{
-    height: 100px;
-}
-.navbar-brand{
-    margin: 30px;
-}
-.navbar-nav{
-    margin: 0 auto;
-}
-.nav-link{
+.boton{
+    background-color: grey;
+    width:fit-content;
+    border: solid 2px black;
+    border-radius: 6px;
+    padding: 1px 3px;
     margin: 10px;
-
-    &:hover{
-        background-color: #95c632;
-        border-radius: 10%;
-        border: solid 1px;
-}
-}
-.navbar-brand:hover{
-    background-color: #95c632;
-    border-radius: 10%;
-    border: solid 1px;
-}
-footer{
-    background-color: #95c632;
-    width: 100%;
-    height: 40px;
-    padding: 5px;
-
-    ul li{
-        width: fit-content;
-        margin: 100px;
-        display: inline;
-        
-        a img{
-            height: 20px;
-        }
+    object-fit: contain;
+    
+    a{
+        text-decoration: none;
+        color: white;
+        font-weight: 500;
     }
-}
-.fotoMiel{
-    @include fotos (solid black 2px , 1px)
-}
+} 
 
-.fotoAceite{
-    @include fotos (solid white 3px , 2px)
-}
-
-.fotoFS{
-    @include fotos (solid gray 4px , 3px)
+.fotosProductos{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
 }
 
 
-.mainProductos{
-    height: 1200px;
-}
-
-
-footer{
-    background-color: #95c632;
-    width: 100%;
-    height: 40px;
-    padding: 5px;
-}
-
-footer ul li{
-    width: fit-content;
-    margin: 100px;
-    display: inline;
-}
-
-footer ul li a img{
-    height: 20px;
-}
-
-footer ul li img{
-    height: 20px;
-}
-
-/* General para todos los navegadores*/
-nav ul li a{
-    text-decoration: none;
-    color: black;
-}
-main{
-    background-color: #d2ed9f;
-}
-
-/* Ajuste imagen banner Index*/
-.bannerPrincipal{
-    width: 100%;
-}
 
 

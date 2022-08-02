@@ -1,0 +1,33 @@
+.grilla{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 30px 10px;
+}
+.itemCertificaciones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+.imgCertificaciones{
+    object-fit: contain;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+.item1{
+    grid-column: 2/4;
+}
+.item2{
+    grid-column: 2/4;
+}
+.item3{
+    grid-column: 2/4;
+}
+.item4{
+    grid-column: 2/4;
+}
+.item5{
+    grid-column: 2/4;
+}
