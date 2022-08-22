@@ -4,13 +4,16 @@
     font-family: 'Roboto Mono', monospace;
 }
 main{
-    background-color: map-get($colores, color-principal) 
+    background-color: white
 }
 .imgHeader{
     height: 100px;
 }
 .navbar-brand{
     margin: 30px;
+}
+header{
+    background-color: #95c632;
 }
 .navbar-nav{
     margin: 0 auto;
@@ -19,13 +22,13 @@ main{
     margin: 10px;
 
     &:hover{
-        background-color: #95c632;
+        background-color: white;
         border-radius: 10%;
         border: solid 1px;
 }
 }
 .navbar-brand:hover{
-    background-color: #95c632;
+    background-color: white;
     border-radius: 10%;
     border: solid 1px;
 }
@@ -72,7 +75,7 @@ nav ul li a{
     color: black;
 }
 main{
-    background-color: #d2ed9f;
+    background-color: white;
 }
 .transicion:hover{
     transform: scale(2);
@@ -80,3 +83,4 @@ main{
 .transicion{
     transition: all 3s;
 }
+

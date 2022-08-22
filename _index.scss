@@ -1,18 +1,18 @@
 .bannerPrincipal{
     width: 100%;
 }
-.parrafoFotoHome{
-    border: solid 1px;
-}
 .valueProp{
-    border: solid 1px;
-    background-color: #aed365;
+    margin-top: 30px;
+    background-color: white;
     justify-content: center;
 }
 .itemVP{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.parrafoFotoHome{
+    margin-top: 50px;
 }
 .fotoVP{
     width: 50%;
@@ -23,11 +23,15 @@
     width: 50%;
 }
 .newsletter{
+    margin-top: 50px;
+    margin-bottom: 30px;
     height: 100%;
-    border: solid 1px;
     padding: 5px;
 }
 
+.form{
+    background-color: #95c632;
+}
 .textoNS{
     font-size: 50px;
     align-content: center;

@@ -5,7 +5,7 @@
 }
 
 main {
-  background-color: #d2ed9f;
+  background-color: white;
 }
 
 .imgHeader {
@@ -16,6 +16,10 @@ main {
   margin: 30px;
 }
 
+header {
+  background-color: #95c632;
+}
+
 .navbar-nav {
   margin: 0 auto;
 }
@@ -24,13 +28,13 @@ main {
   margin: 10px;
 }
 .nav-link:hover {
-  background-color: #95c632;
+  background-color: white;
   border-radius: 10%;
   border: solid 1px;
 }
 
 .navbar-brand:hover {
-  background-color: #95c632;
+  background-color: white;
   border-radius: 10%;
   border: solid 1px;
 }
@@ -81,7 +85,7 @@ nav ul li a {
 }
 
 main {
-  background-color: #d2ed9f;
+  background-color: white;
 }
 
 .transicion:hover {
@@ -96,13 +100,9 @@ main {
   width: 100%;
 }
 
-.parrafoFotoHome {
-  border: solid 1px;
-}
-
 .valueProp {
-  border: solid 1px;
-  background-color: #aed365;
+  margin-top: 30px;
+  background-color: white;
   justify-content: center;
 }
 
@@ -110,6 +110,10 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.parrafoFotoHome {
+  margin-top: 50px;
 }
 
 .fotoVP {
@@ -124,9 +128,14 @@ main {
 }
 
 .newsletter {
+  margin-top: 50px;
+  margin-bottom: 30px;
   height: 100%;
-  border: solid 1px;
   padding: 5px;
+}
+
+.form {
+  background-color: #95c632;
 }
 
 .textoNS {
@@ -135,28 +144,32 @@ main {
   margin-top: 30px;
 }
 
-.boton {
-  background-color: grey;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  border: solid 2px black;
-  border-radius: 6px;
-  padding: 1px 3px;
-  margin: 10px;
-  -o-object-fit: contain;
-     object-fit: contain;
-}
-.boton a {
-  text-decoration: none;
-  color: white;
-  font-weight: 500;
-}
-
 .fotosProductos {
   height: 200px;
   width: 200px;
   margin: 10px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.vip {
+  display: flex;
+  align-items: center;
+  margin: 30px;
+}
+
+.botonVip {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+.botonVip :hover {
+  background-color: #95c632;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  border: solid 1px black;
+  border-radius: 5px;
 }
 
 .grilla {
@@ -245,23 +258,11 @@ section ul li {
     width: fit-content;
     margin: 50px;
   }
-  footer ul li li a img {
-    height: 20px;
-  }
-  footer ul li li img {
-    height: 20px;
-  }
 }
 @media screen and (max-width: 576px) {
   footer ul li {
     display: inline;
-    margin: 30px;
-  }
-  footer ul li a img {
-    height: 20px;
-  }
-  footer ul li li img {
-    height: 20px;
+    margin: 40px;
   }
   .mapa {
     width: 200px;

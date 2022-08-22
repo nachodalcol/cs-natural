@@ -5,25 +5,12 @@
     footer ul li{
     width: fit-content;
     margin: 50px;
-        
-        li a img{
-        height: 20px;
-        }
-        li img{
-            height: 20px;
-        }
     }
 }
 @media screen and (max-width: 576px) {
     footer ul li{
     display:inline;
-    margin: 30px;
-        a img{
-            height: 20px;
-            }
-        li img{
-            height: 20px;
-            }
+    margin: 40px;
     }  
     .mapa{
         width: 200px;
